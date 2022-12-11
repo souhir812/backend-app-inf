@@ -1,0 +1,35 @@
+{
+  "name": "appel_infirmie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx nodemon backend/index.js",
+    "user": "npm start --prefix user",
+    "dev": "concurrently \"npm run server\" \"npm run user\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abbrev": "^2.0.0",
+    "anymatch": "^2.0.0",
+    "bcrypt": "^5.1.0",
+    "binary-extensions": "^2.2.0",
+    "body-parser": "^1.20.1",
+    "bson": "^4.7.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb-connection-string-url": "^2.6.0",
+    "mongoose": "^6.7.5",
+    "multer": "^1.4.5-lts.1",
+    "proxy-addr": "^2.0.7",
+    "secretkey": "^0.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
