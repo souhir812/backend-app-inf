@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "npx nodemon backend/index.js",
-    "user": "npm start --prefix user",
+    "user": " cd frontend && npm start",
     "dev": "concurrently \"npm run server\" \"npm run user\" "
   },
   "keywords": [],
